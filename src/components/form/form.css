@@ -1,0 +1,94 @@
+.interactive-cards_form {
+  position: relative;
+  margin-top: -40rem;
+  margin-left: 55rem;
+  width: min-content;
+}
+
+.interactive-cards_form form {
+  position: absolute;
+  flex-direction: column;
+  margin: 1em;
+  font-family: var(--font-family);
+  color: #21092f;
+  text-transform: uppercase;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 2px;
+}
+
+.interactive-cards_form input {
+  border: 1px solid lightgrey;
+  border-radius: 6px;
+  margin-bottom: 1.25em;
+}
+
+.interactive-cards_form label {
+  display: block;
+  bottom: 3px;
+  line-height: 28px;
+}
+
+.interactive-cards_form input {
+  font-family: var(--font-family);
+  font-size: 14px;
+  line-height: 23px;
+}
+
+.form_cardholder-name input {
+  width: 381px;
+  height: 35px;
+}
+
+.form_card-number input {
+  width: 381px;
+  height: 35px;
+}
+
+.form_expiry-month,
+.form_expiry-year {
+  width: 60px;
+  height: 35px;
+  margin-right: 10px;
+}
+
+.form_card-cvc input {
+  width: 205px;
+  height: 35px;
+}
+
+.form_card-cvc {
+  margin-top: -5rem;
+  margin-left: 11rem;
+  margin-bottom: 2rem;
+}
+
+.form_cardholder-name,
+.form_card-number,
+.form_expiry-date,
+.form_card-cvc {
+  width: 200px;
+  height: 80px;
+}
+
+.form_expiry-date,
+.form_card-cvc {
+  display: flex;
+  flex-direction: row;
+}
+
+.form_button {
+  width: 381px;
+  height: 45px;
+  background: #21092f;
+  font-family: var(--font-family);
+  font-size: 14px;
+  line-height: 23px;
+  color: white;
+  border: none;
+  border-radius: 6px;
+}
+
+.form_button:hover {
+  cursor: pointer;
+}

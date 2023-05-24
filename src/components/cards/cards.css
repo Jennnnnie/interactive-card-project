@@ -1,0 +1,80 @@
+.interactive-cards_container {
+  position: relative;
+}
+
+.big-backgrund {
+  position: absolute;
+}
+
+.interactive-cards_card-front {
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  width: min-content;
+}
+
+.card-logo {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+}
+
+.card-number {
+  position: absolute;
+  left: 2.5rem;
+  top: 50%;
+  color: white;
+  font-family: var(--font-family);
+  font-size: 28px;
+  line-height: 36px;
+  letter-spacing: 3.42222px;
+}
+
+.cardholder-name {
+  position: absolute;
+  top: 75%;
+  left: 2.5rem;
+  color: white;
+  font-family: var(--font-family);
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.card-expiry-date {
+  position: absolute;
+  top: 75%;
+  right: 2.5rem;
+  color: white;
+  font-family: var(--font-family);
+  font-size: 14px;
+  line-height: 18px;
+  text-align: right;
+  letter-spacing: 2px;
+}
+
+.interactive-cards_card-back {
+  position: absolute;
+  top: 52%;
+  left: 25%;
+  width: min-content;
+}
+
+.card-back-bg {
+  position: absolute;
+  top: 60%;
+  left: 25%;
+  width: min-content;
+}
+
+.card-back-cvc {
+  position: absolute;
+  left: 22rem;
+  top: 7rem;
+  color: white;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: right;
+  letter-spacing: 2px;
+}
