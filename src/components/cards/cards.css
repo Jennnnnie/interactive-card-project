@@ -1,15 +1,23 @@
-.interactive-cards_container {
-  position: relative;
+.cards_container {
+  width: 50%;
+  height: 100vh;
 }
 
 .big-backgrund {
   position: absolute;
 }
 
-.interactive-cards_card-front {
+.cards_card-wrapper {
+  position: relative;
+  background-image: url('../../assets/bg-main-desktop.png');
+  background-repeat: repeat-y;
+  height: 100%;
+}
+
+.cards_card-front {
   position: absolute;
   top: 20%;
-  left: 20%;
+  left: 130px;
   width: min-content;
 }
 
@@ -54,10 +62,10 @@
   letter-spacing: 2px;
 }
 
-.interactive-cards_card-back {
+.cards_card-back {
   position: absolute;
   top: 52%;
-  left: 25%;
+  left: 170px;
   width: min-content;
 }
 
@@ -77,4 +85,46 @@
   line-height: 18px;
   text-align: right;
   letter-spacing: 2px;
+}
+
+/* Small to Large devices */
+@media only screen and (min-width: 601px) and (max-width: 1199px) {
+  .cards_card-front {
+    left: 110px;
+  }
+  .cards_card-back {
+    left: 150px;
+  }
+
+  .card-number {
+    font-size: 20px;
+  }
+
+  .cardholder-name {
+    font-size: 10px;
+  }
+
+  .card-expiry-date {
+    font-size: 10px;
+  }
+
+  .card-back-cvc {
+    font-size: 10px;
+  }
+
+  .card-logo {
+    width: 65px;
+  }
+
+  .card-front-bg {
+    width: 350px;
+  }
+  .card-back-bg {
+    width: 350px;
+  }
+
+  .card-back-cvc {
+    left: 280px;
+    top: 85px;
+  }
 }

@@ -1,8 +1,20 @@
-@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap');
 
 :root {
-  --font-family: "Space Grotesk", sans-serif;
+  --font-family: 'Space Grotesk', sans-serif;
   --main-color: #47a2ff;
   --primary-color: #d53aff;
   --secondary-color: #ff834a;
+}
+
+.App {
+  display: flex;
+  width: 100vw;
+}
+
+/* Extra small, small, medium devices (phones, 992px and down) */
+@media only screen and (max-width: 992px) {
+  .App {
+    flex-direction: column;
+  }
 }

@@ -1,8 +1,12 @@
 .interactive-cards_form {
-  position: relative;
-  margin-top: -40rem;
-  margin-left: 55rem;
-  width: min-content;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.interactive-cards_form input {
+  padding: 0 5px;
 }
 
 .interactive-cards_form form {
