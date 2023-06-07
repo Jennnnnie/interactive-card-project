@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -12,6 +14,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  letter-spacing: 3.42222px;
 }
 
 .background {
@@ -56,6 +59,7 @@ main {
   display: flex;
   flex-direction: column;
   padding: 20px;
+  margin-bottom: 5%;
 }
 
 .front-img,
@@ -69,7 +73,7 @@ main {
 
 .card-logo {
   width: 20%;
-  margin-bottom: 5rem;
+  margin-bottom: 4rem;
 }
 
 .card-front-text {
@@ -83,15 +87,30 @@ main {
 .img-card-number {
   font-size: 1.388rem;
   letter-spacing: 0.2em;
+  margin-bottom: 5%;
 }
 
 .card-front-name-date {
   display: flex;
+  font-size: 14px;
+  margin-right: 8%;
 }
 
 .img-card-name {
   margin-right: auto;
+  margin-left: 8%;
   text-transform: uppercase;
+  font-size: 14px;
+}
+
+.img-card-exp-m,
+.img-card-exp-y {
+  font-size: 14px;
+}
+
+.img-card-cvv {
+  font-size: 14px;
+  margin-top: 5%;
 }
 
 .back-img-container {
